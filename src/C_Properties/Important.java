@@ -2,11 +2,11 @@ package C_Properties;
 
 
 //* Type conversion
-    //* Implicit conversion
+    //* Implicit conversion: larger size= smaller size
         // byte → short → int → long → float → double
         // conversion happens when you are assigning value or in arithmetic operation.
 
-    //* Explicit conversion
+    //* Explicit conversion: smaller size= larger size
         // You're converting from a larger to a smaller data type.
         // You must use type casting, and data might be lost (overflow, truncation).
 
